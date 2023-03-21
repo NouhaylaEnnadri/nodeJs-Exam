@@ -1,0 +1,138 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* general styling */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #c6d9c7;
+  }
+  
+  /* header styling */
+  header {
+    background-color: #1c461f;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* form styling */
+  .form-container {
+    margin: 50px auto;
+    width: 80%;
+    max-width: 500px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  form button[type="submit"] {
+    background-color: #1c461f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* table styling */
+  table {
+    border: 1px solid #1c461f;
+    border-collapse: collapse;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 800px;
+  }
+  
+  th, td {
+    border: 1px solid #1c461f;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #1c461f;
+    color: #fff;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  td.actions {
+    display: flex;
+  }
+  
+  .actions button {
+    margin-right: 10px;
+  }
+  
+  .hidden{
+    display: none;
+  }
+  
+  /* Button styles */
+  button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button.delete {
+    background-color: #d4120864;
+  }
+
+  button.up {
+    background-color: #a898e8;
+    color: white;
+  }
+  
+  button.down {
+    background-color: #f4433653;
+    color: white;
+  }
+  

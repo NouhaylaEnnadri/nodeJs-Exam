@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joke App</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <script type="module" src="js/task.js"></script>
+
+
+</head>
+<body>
+  <!-- Login/Register Section -->
+  <section id="nav" >
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+        </ul>
+      </nav>
+    </header>
+  
+
+  <!-- task Section -->
+  <section id="task-section" >
+    
+    <div class="form-container"  id="task-form" >
+      <form id="taskConent">
+        <h2>Add a form </h2>
+        <label for="task">Task</label>
+        <input type="text" id="task" name="task">
+        <button type="submit">Add Task</button>
+        <button type="reset">reset Task</button>
+
+      </form>
+      <button class="refresh">refresh</button>
+    </div>
+
+    <div class="table-container">
+      <h2>Jokes</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Tasks</th>
+          </tr>
+        </thead>
+        <tbody id="tbody">
+          <!-- Jokes will be added dynamically here -->
+        </tbody>
+      </table>
+    </div>
+  </section>
+
